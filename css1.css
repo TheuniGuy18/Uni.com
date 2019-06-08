@@ -1,0 +1,150 @@
+
+
+
+
+
+
+
+  .layout{
+    width: 850px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+
+  body{
+
+      background-image: url("Bilder/Bakgrund1.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+
+    }
+
+  }
+
+
+  header{
+    height: 300px;
+    width: 850px;
+    border-width: 2px;
+    box-shadow: 0px 0px 5px black;
+
+
+
+
+  }
+
+  h1{
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    vertical-align: middle;
+    display: block;
+    background-color:black;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    color: white;
+    margin-top: 0;
+  }
+
+
+  article{
+    height: 1000px;
+    width: 580px;
+    padding: 10px;
+    float: left;
+    padding: 10px;
+  font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Pontano Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+  }
+
+  section{
+    height: 1000px;
+    width: 850px;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color: #dedede;
+    margin-top: 10px;
+  }
+
+  aside{
+    height: 800px;
+    width: 230px;
+    background-color: white;
+    padding: 10px;
+    float: left;
+
+  }
+
+  footer{
+    height: 100%;
+    width: 850px;
+    background-color: white;
+    margin: auto;
+    border-style: solid;
+    border-width: thin;
+    border-color: #dedede;
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    text-align: center;
+    margin-top: 10px;
+
+
+
+  }
+
+nav{
+  height: 40px;
+  width: 830px;
+  border-style: solid;
+  border-width: thin;
+  border-color: magenta;
+  padding: 10px;
+  text-align: center;
+  border-color: #dedede;
+  margin-top: 10px;
+  background-color: white
+}
+
+
+  article a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+
+
+nav a{
+  background-color:black;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  height: 40px;
+  width: 201px;
+  vertical-align: middle;
+  line-height: 40px;
+
+}
+
+nav a:hover{
+  background-color: white;
+  color:black;
+}
+
+nav a + a{margin-left: 2px;}
+
+
+nav a.current{
+  background-color: grey;
+}
